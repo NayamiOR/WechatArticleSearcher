@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WechatArticleSearcher", "We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler", "Crawler\Crawler.csproj", "{A60CA9D2-35D1-4F2A-B0DE-10ED0FC80760}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCrawler", "TestCrawler\TestCrawler.csproj", "{28F18858-8492-486E-99B9-47867B90CF2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A60CA9D2-35D1-4F2A-B0DE-10ED0FC80760}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A60CA9D2-35D1-4F2A-B0DE-10ED0FC80760}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A60CA9D2-35D1-4F2A-B0DE-10ED0FC80760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F18858-8492-486E-99B9-47867B90CF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F18858-8492-486E-99B9-47867B90CF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F18858-8492-486E-99B9-47867B90CF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F18858-8492-486E-99B9-47867B90CF2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
