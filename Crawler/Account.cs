@@ -18,6 +18,6 @@ public class Account
     public void Update()
     {
         // TODO
-        // Console.WriteLine(AccountId + " " + Name + " updated");
+        Database.SaveAccount(this);
     }
 }

@@ -24,6 +24,6 @@ public class Article
     public void Update()
     {
         // TODO
-        Console.WriteLine(ArticleId + " " + Title + " updated");
+        Database.SaveArticle(this);
     }
 }
