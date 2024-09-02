@@ -5,10 +5,6 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WechatArticleSearcher", "WechatArticleSearcher\WechatArticleSearcher.csproj", "{91828C72-7A0C-4CBD-8D71-A9840A9ABC1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler", "Crawler\Crawler.csproj", "{A60CA9D2-35D1-4F2A-B0DE-10ED0FC80760}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCrawler", "TestCrawler\TestCrawler.csproj", "{28F18858-8492-486E-99B9-47867B90CF2B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{91828C72-7A0C-4CBD-8D71-A9840A9ABC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91828C72-7A0C-4CBD-8D71-A9840A9ABC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91828C72-7A0C-4CBD-8D71-A9840A9ABC1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A60CA9D2-35D1-4F2A-B0DE-10ED0FC80760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A60CA9D2-35D1-4F2A-B0DE-10ED0FC80760}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A60CA9D2-35D1-4F2A-B0DE-10ED0FC80760}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A60CA9D2-35D1-4F2A-B0DE-10ED0FC80760}.Release|Any CPU.Build.0 = Release|Any CPU
-		{28F18858-8492-486E-99B9-47867B90CF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{28F18858-8492-486E-99B9-47867B90CF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{28F18858-8492-486E-99B9-47867B90CF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{28F18858-8492-486E-99B9-47867B90CF2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

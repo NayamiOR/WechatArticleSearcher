@@ -1,0 +1,40 @@
+﻿<Window x:Class="WechatArticleSearcher.UpdateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:WechatArticleSearcher.Crawler"
+        xmlns:wechatArticleSearcher="clr-namespace:WechatArticleSearcher"
+        mc:Ignorable="d"
+        Icon="pack://application:,,,/Resources/icon.ico"
+        Title="UpdateWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <wechatArticleSearcher:AccountList x:Name="AccountListBox"
+                                           Grid.Row="0" Grid.Column="0" Grid.RowSpan="5"
+                                           Margin="10" MaxWidth="300" MaxHeight="350" />
+
+        <CheckBox Name="UseTimeLimit" Grid.Row="1" Grid.Column="1" Content="按时间筛选" Margin="10" />
+        <DatePicker Grid.Row="1" Grid.Column="2" Name="DatePicker" Margin="10" Width="100" />
+        <CheckBox Name="UseNumberLimit" Grid.Row="2" Grid.Column="1" Content="按最新N条" Margin="10" />
+        <TextBox Grid.Row="2" Grid.Column="2" Name="NumberLimit" Margin="10" Width="100"
+                 HorizontalScrollBarVisibility="Auto" />
+
+        <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Name="UpdateButton" Content="更新"
+                HorizontalAlignment="Left" Margin="10" Width="100" Height="40" Click="UpdateButton_Click" />
+    </Grid>
+</Window>
